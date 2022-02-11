@@ -1,0 +1,4 @@
+#Fri Feb 11 14:24:37 EST 2022
+base.0=D\:\\Completed School\\Programming\\AndroidStudio Android Apps\\currencyConverter\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
