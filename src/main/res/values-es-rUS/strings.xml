@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Brodniklaboratorio3</string>
+    <string name="euroAmount">\"Euro Importe\"</string>
+    <string name="poundAmount">\"Libra Importe\"</string>
+    <string name="yenAmount">\"Yen Importe\"</string>
+    <string name="pound">Libra</string>
+    <string name="enterAmount">Entrar Importe</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BrodnikLab3</string>
+    <string name="euroAmount">\"Euro Amount\"</string>
+    <string name="poundAmount">\"Pound Amount\"</string>
+    <string name="yenAmount">\"Yen Amount\"</string>
+
+    <string name="enterAmount">\"Enter Amount\"</string>
+    <string name="pound">Pound</string>
+
+
+</resources>

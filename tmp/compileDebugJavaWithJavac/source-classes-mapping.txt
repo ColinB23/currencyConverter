@@ -1,0 +1,7 @@
+com/example/brodniklab3/BuildConfig.java
+ com.example.brodniklab3.BuildConfig
+com/example/brodniklab3/Convert.java
+ com.example.brodniklab3.Convert
+com/example/brodniklab3/MainActivity.java
+ com.example.brodniklab3.MainActivity
+ com.example.brodniklab3.MainActivity$1

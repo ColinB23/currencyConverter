@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:layout="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    android:layout_span="2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/USD_editText"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/enterAmount"
+            android:inputType="numberDecimal"
+            android:layout_span="2" />
+
+        <TextView
+            android:id="@+id/USD_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_span="2"
+            android:text="USD"
+            layout:row="1" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/eurotextView"
+            android:layout_width="275dp"
+            android:layout_height="42dp"
+            android:text="Euro" />
+
+        <TextView
+            android:id="@+id/euroTextViewOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/euroAmount" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/poundTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="@string/pound"/>
+
+        <TextView
+            android:id="@+id/poundTextViewOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/poundAmount" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/yenTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="Yen" />
+
+        <TextView
+            android:id="@+id/yentextViewOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/yenAmount" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/money" />
+    </TableRow>
+
+</TableLayout>
